@@ -94,8 +94,7 @@ produit-geospatial/
 
 - **Produits** : ThinkPad Laptop, AAA Batteries (4-pack)
 - **Villes** : 10 villes US (San Francisco, New York, Dallas, etc.)
-- **Période** : Mars - Mai 2020 (60 jours ouvrés)
-
+- **Période de prédiction** : 3 mois apres dernier date historiques
 ---
 
 ## ⚙️ Configuration
@@ -172,14 +171,6 @@ docker-compose build --no-cache
 docker-compose up -d
 ```
 
----
-
-## 📚 Documentation
-
-- **[LLM/README.md](LLM/README.md)** : Documentation complète de l'assistant
-- **[LLM/QUICKSTART.md](LLM/QUICKSTART.md)** : Guide de démarrage rapide
-- **[LLM/ARCHITECTURE.md](LLM/ARCHITECTURE.md)** : Architecture technique
-- **[LLM/FEATURES.md](LLM/FEATURES.md)** : Liste des fonctionnalités
 
 ---
 
