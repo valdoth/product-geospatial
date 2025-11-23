@@ -1,0 +1,44 @@
+# Configuration de l'assistant LLM pour l'aide à la décision
+
+llm:
+  provider: "openai"
+  model: "gpt-4o-mini"
+  temperature: 0.1
+  max_tokens: 2000
+  embedding_model: "text-embedding-3-small"
+
+data:
+  predictions_monthly: "../prediction/predictions_3_mois.csv"
+  predictions_daily: "../prediction/predictions_60_jours.csv"
+
+analysis:
+  # Seuils pour les analyses
+  high_demand_threshold: 1000 # Quantité considérée comme forte demande
+  growth_threshold: 0.1 # 10% de croissance considérée comme significative
+  top_n_cities: 5 # Nombre de villes à afficher dans les tops
+
+prompts:
+  system: |
+    Tu es un assistant expert en analyse de données de prédiction de demande pour des produits électroniques.
+    Tu as accès aux prédictions mensuelles et journalières de demande pour deux produits :
+    - ThinkPad Laptop
+    - AAA Batteries (4-pack)
+
+    Les prédictions couvrent 10 villes américaines sur 3 mois (mars, avril, mai 2020).
+
+    Ton rôle est d'aider les décideurs à :
+    1. Identifier les zones à forte demande
+    2. Comparer la demande entre différentes villes
+    3. Détecter les tendances et progressions
+    4. Recommander des actions logistiques et d'approvisionnement
+
+    Réponds de manière concise, factuelle et actionnable.
+    Utilise les données fournies pour justifier tes recommandations.
+    Fournis des chiffres précis quand c'est pertinent.
+
+  context_template: |
+    Voici les données de prédiction disponibles :
+
+    {context}
+
+    Utilise ces données pour répondre à la question de l'utilisateur.

@@ -1,0 +1,61 @@
+Product,City_State,Month,Predicted_Quantity
+ThinkPad Laptop,San Francisco (CA),2020-01,77.04582
+ThinkPad Laptop,San Francisco (CA),2020-02,66.355194
+ThinkPad Laptop,San Francisco (CA),2020-03,56.412243
+ThinkPad Laptop,Los Angeles (CA),2020-01,36.24992
+ThinkPad Laptop,Los Angeles (CA),2020-02,33.08497
+ThinkPad Laptop,Los Angeles (CA),2020-03,30.93563
+ThinkPad Laptop,New York City (NY),2020-01,56.35692
+ThinkPad Laptop,New York City (NY),2020-02,48.29576
+ThinkPad Laptop,New York City (NY),2020-03,41.69832
+ThinkPad Laptop,Boston (MA),2020-01,47.754135
+ThinkPad Laptop,Boston (MA),2020-02,42.808502
+ThinkPad Laptop,Boston (MA),2020-03,38.509518
+ThinkPad Laptop,Atlanta (GA),2020-01,39.40102
+ThinkPad Laptop,Atlanta (GA),2020-02,34.76089
+ThinkPad Laptop,Atlanta (GA),2020-03,29.161617
+ThinkPad Laptop,Dallas (TX),2020-01,36.716045
+ThinkPad Laptop,Dallas (TX),2020-02,32.44383
+ThinkPad Laptop,Dallas (TX),2020-03,27.048206
+ThinkPad Laptop,Seattle (WA),2020-01,22.528975
+ThinkPad Laptop,Seattle (WA),2020-02,21.024162
+ThinkPad Laptop,Seattle (WA),2020-03,19.931559
+ThinkPad Laptop,Portland (OR),2020-01,34.368423
+ThinkPad Laptop,Portland (OR),2020-02,30.519693
+ThinkPad Laptop,Portland (OR),2020-03,25.968067
+ThinkPad Laptop,Austin (TX),2019-12,0.6727174
+ThinkPad Laptop,Austin (TX),2020-01,25.978354
+ThinkPad Laptop,Austin (TX),2020-02,22.645243
+ThinkPad Laptop,Portland (ME),2019-12,0.2674276
+ThinkPad Laptop,Portland (ME),2020-01,3.3089597
+ThinkPad Laptop,Portland (ME),2020-02,2.8298745
+AAA Batteries (4-pack),San Francisco (CA),2020-01,402.2504
+AAA Batteries (4-pack),San Francisco (CA),2020-02,432.5979
+AAA Batteries (4-pack),San Francisco (CA),2020-03,405.32205
+AAA Batteries (4-pack),Los Angeles (CA),2020-01,489.04926
+AAA Batteries (4-pack),Los Angeles (CA),2020-02,426.1946
+AAA Batteries (4-pack),Los Angeles (CA),2020-03,363.09033
+AAA Batteries (4-pack),New York City (NY),2020-01,244.29752
+AAA Batteries (4-pack),New York City (NY),2020-02,219.6683
+AAA Batteries (4-pack),New York City (NY),2020-03,201.50397
+AAA Batteries (4-pack),Boston (MA),2020-01,315.23566
+AAA Batteries (4-pack),Boston (MA),2020-02,272.84473
+AAA Batteries (4-pack),Boston (MA),2020-03,232.07487
+AAA Batteries (4-pack),Atlanta (GA),2020-01,214.64473
+AAA Batteries (4-pack),Atlanta (GA),2020-02,199.73083
+AAA Batteries (4-pack),Atlanta (GA),2020-03,169.95036
+AAA Batteries (4-pack),Dallas (TX),2020-01,185.84138
+AAA Batteries (4-pack),Dallas (TX),2020-02,162.20033
+AAA Batteries (4-pack),Dallas (TX),2020-03,137.89531
+AAA Batteries (4-pack),Seattle (WA),2020-01,123.96189
+AAA Batteries (4-pack),Seattle (WA),2020-02,110.62798
+AAA Batteries (4-pack),Seattle (WA),2020-03,93.78589
+AAA Batteries (4-pack),Portland (OR),2020-01,105.30992
+AAA Batteries (4-pack),Portland (OR),2020-02,98.34097
+AAA Batteries (4-pack),Portland (OR),2020-03,88.65864
+AAA Batteries (4-pack),Austin (TX),2020-01,121.46588
+AAA Batteries (4-pack),Austin (TX),2020-02,106.19637
+AAA Batteries (4-pack),Austin (TX),2020-03,90.57018
+AAA Batteries (4-pack),Portland (ME),2020-01,45.88932
+AAA Batteries (4-pack),Portland (ME),2020-02,40.33722
+AAA Batteries (4-pack),Portland (ME),2020-03,35.38907
